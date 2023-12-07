@@ -156,7 +156,7 @@ html {
   gap: 80px;
 }
 .Text.raspisan{
-  font-size: 43px;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -171,7 +171,7 @@ html {
   flex-grow: 1;
   font-family: Play;
   color: #ffffff;
-  font-size: 43px;
+  font-size: 40px;
   justify-content: center;
   align-items: center;
 }

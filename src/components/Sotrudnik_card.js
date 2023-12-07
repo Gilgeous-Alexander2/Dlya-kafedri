@@ -4,7 +4,7 @@ export default function Sotrudnik(props){
     return<>
     <div class="container">
         <div class="card">
-            <img src={girl} style={{height:'400px'}}alt="1"/>
+            <img src={props.pic} style={{height:'400px'}}alt="1"/>
             <br/>
             <br/>
             <div class="Text ">{props.prepod.name}</div>
