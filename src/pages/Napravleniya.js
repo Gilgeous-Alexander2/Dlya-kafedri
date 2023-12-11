@@ -1,4 +1,6 @@
-import girl from '../pics/кибертянка.jpg'
+import innov from '../pics/innov.webp'
+import innov2 from '../pics/innov2.webp'
+
 import { Button, Hidden, duration } from "@mui/material";
 import { CButton2 } from '../components/CButton2';
 import { React, useRef } from 'react';
@@ -64,7 +66,7 @@ export default function Napravleniya(props) {
                         exit={'exit'}
                         variants={show}
                     >
-                        <img src={girl} style={{ width: '300px', height: '400px' }}></img>
+                        <img src={innov} style={{ width: '300px', height: '400px' }}></img>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
                             <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
                                 <div className="poloska2"></div>

@@ -48,7 +48,6 @@ export default function Raspisaniye() {
                         <div className="Text raspisan" style={{ display: 'flex', justifyContent: 'center', gap: '40px' }}><a >ИС-22</a><a >ИЭ-22</a></div>
                         <div className="Text raspisan" style={{ display: 'flex', justifyContent: 'center', gap: '40px' }}><a >ИС-21</a><a >ИЭ-21</a></div>
                         <div className="Text raspisan" style={{ display: 'flex', justifyContent: 'center', gap: '40px' }}><a >ИС-20</a><a >ИЭ-20</a></div>
-
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'column', height: '400px', boxSizing: 'border-box', gap: '20px' }}>
                         <a className="Text green" style={{ textAlign: "center", fontSize: '35px' }}>другие группы</a>

@@ -4,11 +4,11 @@ import Dyptan from '../pics/Dyptan Yelena Arnoldovna.jpeg'
 import Belyaev from '../pics/Belyaev Igor Sergeevich.jpeg'
 import Petrov from '../pics/Petrov Alexey Mikhailovich.jpeg'
 import Popkova from '../pics/Popkova Alla Alexeevna.jpeg'
-import Fedenko from '../pics/Faddeenkov Andrey Vladimirovich.jpeg'
+import Fedenko from '../pics/Fedenko Anton Olegovich.webp'
 import Faddeenkov from '../pics/Faddeenkov Andrey Vladimirovich.jpeg'
-import Tsukanov from '../pics/Faddeenkov Andrey Vladimirovich.jpeg'
+import Tsukanov from '../pics/Tsukanov Gleb Konstantinovich.jpg'
 import Bodryakova from '../pics/Bodryakova Ludmila Vladimirovna.jpeg'
-import But from '../pics/Belyaev Igor Sergeevich.jpeg'
+import But from '../pics/But Vladislav Vladimirovich.webp'
 
 
 

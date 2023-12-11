@@ -1,6 +1,7 @@
 import zIndex from '@mui/material/styles/zIndex'
 import girl from '../pics/кибертянка.jpg'
 
+
 export default function Kartocka(props) {
     return <>
         <div style={{ zIndex: 1, position: 'relative'}}>
@@ -15,7 +16,7 @@ export default function Kartocka(props) {
 
             <div className='Dostizheniye'>
                 <div className='Text' style={{ fontSize: '20px' }}>{props.dostizh}</div>
-                <img src={girl} style={{ height: '70px' }}></img>
+                <img src={props.pic} style={{ height: '70px' }}></img>
 
             </div>
         </div>

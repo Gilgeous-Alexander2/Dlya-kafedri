@@ -1,4 +1,4 @@
-import girl from '../pics/Group 172.jpg'
+import brain from '../pics/Group 177.png'
 import { Button, Hidden, duration } from "@mui/material";
 import { CButton2 } from '../components/CButton2';
 import { React, useRef } from 'react';
@@ -30,7 +30,7 @@ export default function Infa2() {
                         О КАФЕДРЕ ИСиТ
                     </div>
                     <div style={{ display: 'flex', flexGrow: 1 }}></div>
-                    <motion.div initial={{opacity:0}} animate={'show2'} variants={anim}><img src={girl} style={{ width: '450px' }}></img></motion.div>
+                    <motion.div initial={{opacity:0}} animate={'show2'} variants={anim}><img src={brain} style={{ width: '450px' }}></img></motion.div>
                 </div>
 
                 <div style={{ flexDirection: 'column', gap: '40px', display: 'flex', paddingTop: '30px' }}>
