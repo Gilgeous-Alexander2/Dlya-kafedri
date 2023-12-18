@@ -10,8 +10,7 @@ import Tsukanov from '../pics/Tsukanov Gleb Konstantinovich.jpg'
 import Bodryakova from '../pics/Bodryakova Ludmila Vladimirovna.jpeg'
 import But from '../pics/But Vladislav Vladimirovich.webp'
 
-
-
+import '../App.css';
 
 
 
@@ -47,15 +46,15 @@ export default function Sotrudniki() {
   const targetRef = useRef(null);
   const isInView = useInView(targetRef, { once: true });
 
-  let prepodi = [{ name: <div className="Prepodiii">Дыптан <br />Елена Арнольдовна</div>, title: 'cтарший преподаватель', title2: '' }
-    , { name: <div className="Prepodiii">Беляев <br />Игорь Сергеевич</div>, title: 'Доцент', title2: 'Кандидат экономических наук' },
-  { name: <div className="Prepodiii">Петров <br />Алексей Михайлович</div>, title: 'Доцент', title2: '' }
-    , { name: <div className="Prepodiii">Бодрякова <br />Людмила Николаевна</div>, title: 'Доцент', title2: 'Кандидат технических наук' },
-  { name: <div className="Prepodiii">Фаддееенков <br />Андрей Владимирович</div>, title: 'Доцент', title2: 'Кандидат технических наук' }
-    , { name: <div className="Prepodiii">Попкова <br />Алла Алексеевна</div>, title: 'Доцент', title2: 'Кандидат технических наук' },
-  { name: <div className="Prepodiii">Феденко <br />Антон Олегович</div>, title: 'Ассистент', title2: '' }
-    , { name: <div className="Prepodiii">Бут <br />Владислав Владимирович</div>, title: 'доцент', title2: '' },
-  { name: <div className="Prepodiii">Цуканов <br />Глеб Константинович</div>, title: 'ассистент', title2: '' }]
+  let prepodi = [{ name: <div className="Prepodiii">ДЫПТАН <br />ЕЛЕНА АРНОЛЬДОВНА</div>, title: <div className="Prepodiii">cтарший преподаватель</div>, title2: '' }
+    , { name: <div className="Prepodiii">БЕЛЯЕВ <br />ИГОРЬ СЕРГЕЕВИЧ</div>, title: <div className="Prepodiii">cтарший преподаватель</div>, title2: 'Кандидат экономических наук' },
+  { name: <div className="Prepodiii">ПЕТРОВ <br />АЛЕКСЕЙ МИХАЙЛОВИЧ</div>, title: <div className="Prepodiii">доцент</div>, title2: '' }
+    , { name: <div className="Prepodiii">БОДРЯКОВА <br />ЛЮДМИЛА НИКОЛАЕВНА</div>, title: <div className="Prepodiii">доцент</div>, title2: 'Кандидат технических наук' },
+  { name: <div className="Prepodiii">ФАДДЕЕНКОВ <br />АНДРЕЙ ВЛАДИМИРОВИЧ</div>, title: <div className="Prepodiii">доцент</div>, title2: 'Кандидат технических наук' }
+    , { name: <div className="Prepodiii">ПОПКОВА <br />АЛЛА АЛЕКСЕЕВНА</div>, title: <div className="Prepodiii">доцент</div>, title2: 'Кандидат технических наук' },
+  { name: <div className="Prepodiii">ФЕДЕНКО <br />АНТОН ОЛЕГОВИЧ</div>, title: <div className="Prepodiii">ассистент</div>, title2: '' }
+    , { name: <div className="Prepodiii">БУТ <br />ВЛАДИСЛАВ ВЛАДИМИРОВИЧ</div>, title: <div className="Prepodiii">доцент</div>, title2: '' },
+  { name: <div className="Prepodiii">ЦУКАНОВ <br />ГЛЕБ КОНСТАНТИНОВИЧ</div>, title: <div className="Prepodiii">ассистент</div>, title2: '' }]
 
   return <motion.div ref={targetRef} initial={'hidden'} animate={isInView ? 'show' : 'none'} variants={anim}>
     <div className='Text logo' id='Sotrud' style={{ textAlign: 'center', fontSize: '70px', margin: '150px 0 50px 0', zIndex: 1 }}>Сотрудники</div>

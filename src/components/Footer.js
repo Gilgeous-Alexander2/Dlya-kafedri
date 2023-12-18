@@ -1,5 +1,3 @@
-
-
 export default function Footer() {
     return <>
         <div className="Footer">
@@ -37,7 +35,7 @@ export default function Footer() {
             <div className="Stolbik">
                 <div className="Text" style={{ fontSize: '25px' }}>Designed and developed by</div>
                 <div style={{ gap: '10px', display: 'flex', flexDirection: 'column', lineHeight: '30px', paddingLeft: '20px'  }}>
-                    <div className="Text" style={{ fontSize: '20px' }}>Старостин глеб</div>
+                    <div className="Text" style={{ fontSize: '20px' }}>Старостин Глеб</div>
                     <div className="Text" style={{ fontSize: '20px' }}>Маркевич Александр</div>
                     <div className="Text" style={{ fontSize: '20px' }}>Зюкин Сергей</div>
                 </div>

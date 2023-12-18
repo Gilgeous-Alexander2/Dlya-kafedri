@@ -11,6 +11,7 @@ import Programma from './pages/ObrazovProgramma';
 import Footer from './components/Footer';
 import Sotrudniki from './pages/Sotrudniki';
 import Raspisaniye from './pages/Raspisaniye';
+import './Play/Play-Regular.ttf'
 
 
 function App() {

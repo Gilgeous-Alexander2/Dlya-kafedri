@@ -72,7 +72,7 @@ export default function Programma() {
     }
 
     //let Programma = ['123456789','asdfghjk','zxcvbnm,']
-    let Programma = [<>- Проектирование баз данных<br /><br />
+    let Programma = [<>-Проектирование баз данных<br /><br />
         - Интеллектуальные системы и технологии<br /><br />
         - Разработка мобильных приложений<br /><br />
         - Корпоративные информационные системы<br /><br />
